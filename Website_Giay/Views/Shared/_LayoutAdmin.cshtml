@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Trang Quản Trị</title>
+    <link href="~/Content/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="~/Content/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link href="~/Content/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <script src="~/Content/lib/jquery/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="~/Content/lib/fontawesome/css/all.min.css">
+
+    <style>
+        .sidebar {
+            min-height: calc(100vh - 200px);
+        }
+        .nav-link {
+            color: #333;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            margin-bottom: 0.25rem;
+        }
+        .nav-link:hover, .nav-link.active {
+            background-color: #e3f2fd;
+            color: #0d6efd;
+        }
+        .nav-link i {
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-primary text-white p-3">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="/Admin">
+                        <i class="bi bi-gear-fill"></i> Trang Quản Trị
+                    </a>
+
+                    <div class="ms-auto d-flex align-items-center gap-3">
+                        @if (Session["User"] != null)
+                        {
+                            var user = (Website_Giay.Models.KhachHang)Session["User"];
+                            <span>
+                                <i class="bi bi-person-circle"></i>
+                                Admin: <strong>@user.Username</strong>
+                            </span>
+                            <a href="/TaiKhoan/DangXuat" class="btn btn-outline-light">
+                                <i class="bi bi-box-arrow-right"></i> Đăng xuất
+                            </a>
+                        }
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <nav class="sidebar bg-light p-3 rounded shadow-sm">
+                    <h5 class="text-primary mb-3">
+                        <i class="bi bi-list"></i> Menu Quản Trị
+                    </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin">
+                                <i class="bi bi-speedometer2"></i> Tổng quan
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/SanPham">
+                                <i class="bi bi-box-seam"></i> Quản lý sản phẩm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/DonHang">
+                                <i class="bi bi-cart-check"></i> Quản lý đơn hàng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/KhachHang">
+                                <i class="bi bi-people"></i> Quản lý người dùng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/DanhMuc">
+                                <i class="bi bi-folder"></i> Quản lý danh mục
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/" target="_blank">
+                                <i class="bi bi-shop"></i> Xem trang chủ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-10">
+                <div class="bg-white p-4 rounded shadow-sm">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+
+        <footer class="row mt-4 py-3 bg-light text-center">
+            <div class="col-12">
+                <p class="mb-0">&copy; 2025 Hệ Thống Quản Trị Cửa Hàng Giày Dép</p>
+            </div>
+        </footer>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

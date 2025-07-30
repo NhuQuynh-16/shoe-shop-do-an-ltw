@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout_TrangChinh.cshtml";
+}
+@model IEnumerable<Website_Giay.Models.SanPham>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <!-- Thêm liên kết vào hình ảnh sản phẩm -->
+                <a href="@Url.Action("ChiTiet", "SanPham", new { id = item.IdProduct })">
+                    <img src="@Url.Content("~/Content/images/" + item.HinhAnh)" class="card-img-top" alt="@item.TenSanPham" style="height:200px; object-fit:cover;" />
+                </a>
+                <div class="card-body">
+                    <!-- Thêm liên kết vào tên sản phẩm -->
+                    <h5 class="card-title">
+                        <a href="@Url.Action("ChiTiet", "SanPham", new { id = item.IdProduct })">
+                            @item.TenSanPham
+                        </a>
+                    </h5>
+                    <p class="card-text text-danger">@item.Gia.ToString("N0") VNĐ</p>
+                    <p class="card-text"><small>@item.MoTa</small></p>
+                    @if (Session["UserRole"] != null && (int)Session["UserRole"] == 0)
+                    {
+                        <a href="/GioHang/ThemVaoGio?maSP=@item.IdProduct" class="btn btn-sm btn-success mt-2">🛒 Thêm vào giỏ</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+

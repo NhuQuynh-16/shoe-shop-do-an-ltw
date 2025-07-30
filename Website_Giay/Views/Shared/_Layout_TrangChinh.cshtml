@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+@{
+    int soLuongGioHang = 0;
+    if (Session["User"] != null)
+    {
+        var gioHang = Session["GioHang"] as List<Website_Giay.Models.CartItem>;
+        if (gioHang != null)
+        {
+            soLuongGioHang = gioHang.Sum(item => item.Quantity);
+        }
+    }
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="~/Content/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link href="~/Content/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <script src="~/Content/lib/jquery/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="~/Content/lib/fontawesome/css/all.min.css">
+    <style>
+        .hover-link:hover {
+            background-color: #d4edda;
+            transition: background-color 0.3s;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            transition: transform 0.2s;
+        }
+
+        .card-title {
+            font-size: 1rem;
+        }
+
+        /* Hover cho danh mục sản phẩm */
+        .nav-link:hover {
+            background-color: #e0f2f1 !important;
+            color: #00796b !important;
+        }
+
+        /* Sidebar styles */
+        .sidebar-category {
+            transition: all 0.3s ease;
+        }
+
+            .sidebar-category:hover {
+                transform: translateX(5px);
+            }
+
+        .nav-link.active {
+            position: relative;
+        }
+
+            .nav-link.active::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 3px;
+                background-color: #198754;
+            }
+
+        .nav-link i {
+            margin-right: 8px;
+            width: 20px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #e0f7fa;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Giỏ hàng*/
+        .cart-btn {
+            position: relative;
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-light p-4 pb-4">
+            <div class="col-12">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg navbar-light px-4" style="background-color: #e0f7fa;">
+                        <div class="container">
+                            <a class="navbar-brand" href="/">👟 Cửa hàng giày dép</a>
+
+                            <form class="mx-auto w-50 d-flex" action="/SanPham/Index" method="get">
+                                <input class="form-control me-2" type="search" name="search" placeholder="Tìm giày...">
+                                <button class="btn btn-success" type="submit">Tìm</button>
+                            </form>
+
+                            <div class="d-flex align-items-center gap-2">
+                                @if (Session["User"] != null)
+                                {
+                                    var user = (Website_Giay.Models.KhachHang)Session["User"];
+                                    <div class="dropdown">
+                                        <form id="accountForm" class="d-inline">
+                                            <select class="form-select" onchange="if (this.value) window.location.href=this.value;">
+                                                <option value="">Xin chào, @user.HoTen</option>
+                                                <option value="@Url.Action("ThongTinDH", "TaiKhoan")">Thông tin tài khoản</option>
+                                                <option value="@Url.Action("DonDatHang", "TaiKhoan")">Lịch sử đơn hàng</option>
+                                                <option value="@Url.Action("DangXuat", "TaiKhoan")">Đăng xuất</option>
+                                            </select>
+                                        </form>
+                                    </div>
+
+                                    <a href="/GioHang/Index" class="btn btn-outline-success cart-btn">
+                                        <i class="bi bi-cart"></i> Giỏ hàng
+                                        @if (soLuongGioHang > 0)
+                                        {
+                                            <span class="cart-badge">@soLuongGioHang</span>
+                                        }
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="/TaiKhoan/DangNhap" class="btn btn-primary">Đăng nhập</a>
+                                    <a href="/TaiKhoan/DangKy" class="btn btn-primary">
+                                        <i class="bi bi-person-plus"></i>Đăng ký
+                                    </a>
+                                }
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="container-fluid">
+                    <div id="shoeBanner" class="carousel slide" data-bs-ride="carousel">
+                        <!-- indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#shoeBanner" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#shoeBanner" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#shoeBanner" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/Content/images/banner-giay1.jpg" class="d-block w-100" style="height: 320px; " />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Content/images/banner-giay2.jpg" class="d-block w-100" style="height: 320px;  " />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/Content/images/banner-giay3.jpg" class="d-block w-100" style="height: 320px;  " />
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shoeBanner" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shoeBanner" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 bg-white shadow-sm p-3">
+                <h5 class="mb-3">📁 DANH MỤC SẢN PHẨM</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item border-bottom" style="border-color: #ddd;">
+                        <a class="nav-link text-dark fw-bold py-2 px-3 hover-link @(ViewBag.SelectedCategory == null && string.IsNullOrEmpty(Request.QueryString["search"]) ? "active bg-success text-white" : "")"
+                           href="/SanPham/Index">
+                            <i class="bi bi-grid"></i> Tất cả sản phẩm
+                        </a>
+                    </li>
+                    @foreach (var dm in ViewBag.DanhMucs)
+                    {
+                        <li class="nav-item border-bottom" style="border-color: #ddd;">
+                            <a class="nav-link text-dark fw-bold py-2 px-3 hover-link @(ViewBag.SelectedCategory == dm.IdDanhMuc ? "active bg-success text-white" : "")"
+                               href="/SanPham/Index?danhmuc=@dm.IdDanhMuc">
+                                <i class="bi bi-folder"></i> @dm.TenDanhMuc
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-10">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <footer class="mt-4">
+                    <div class="container">
+                        <p>&copy; 2025 Cửa Hàng Giày Dép. Thiết kế bởi Nhóm Web Dev.</p>
+                        <p>Email: lienhe@cuahanggiay.vn | SĐT: 0123 456 789</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

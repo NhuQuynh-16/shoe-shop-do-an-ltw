@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Xác nhận đặt hàng";
+    Layout = "~/Views/Shared/_Layout_TrangChinh.cshtml";
+}
+@model List<Website_Giay.Models.CartItem>
+
+<div class="container my-4">
+    <div class="row">
+        <!-- Form thông tin giao hàng -->
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Thông tin đặt hàng</h5>
+                </div>
+                <div class="card-body">
+                    @{
+                        var user = Session["User"] as Website_Giay.Models.KhachHang;
+                    }
+                    @using (Html.BeginForm("Checkout", "DatHang", FormMethod.Post))
+                    {
+                        <div class="form-group mb-3">
+                            <label>Họ và tên</label>
+                            <input type="text" class="form-control" value="@user.HoTen" readonly>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label>Số điện thoại</label>
+                            <input type="text" class="form-control" value="@user.DienThoai" readonly>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label>Địa chỉ nhận hàng</label>
+                            <input type="text" class="form-control" name="diaChi" value="@user.DiaChi" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label>Ngày đặt hàng</label>
+                            <input type="text" class="form-control" value="@DateTime.Now.ToString("dd/MM/yyyy HH:mm")" readonly>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="/GioHang" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left"></i> Giỏ hàng
+                            </a>
+                            <button type="submit" class="btn btn-success">
+                                Hoàn tất đặt hàng <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Thông tin đơn hàng -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Thông tin đơn hàng</h5>
+                </div>
+                <div class="card-body">
+                    @{
+                        var cart = Session["GioHang"] as List<Website_Giay.Models.CartItem>;
+                        if (cart != null && cart.Any())
+                        {
+                            foreach (var item in cart)
+                            {
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div>
+                                        <img src="/Content/images/@item.Image" style="width: 50px; height: 50px; object-fit: cover;" class="me-2">
+                                        <span>@item.ProductName x @item.Quantity</span>
+                                    </div>
+                                    <span class="text-end">@((item.Price * item.Quantity).ToString("N0"))đ</span>
+                                </div>
+                            }
+                            <hr>
+                            <div class="d-flex justify-content-between mb-2">
+                                <strong>Tổng tiền hàng:</strong>
+                                <span>@cart.Sum(i => i.Price * i.Quantity).ToString("N0")đ</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <strong>Phí giao hàng:</strong>
+                                <span>---</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <strong>Tổng thanh toán:</strong>
+                                <span class="text-danger fw-bold">@cart.Sum(i => i.Price * i.Quantity).ToString("N0")đ</span>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

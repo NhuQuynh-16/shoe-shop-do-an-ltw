@@ -1,0 +1,226 @@
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Website_Giay.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\EntityFramework.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\WebGrease.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\EntityFramework.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Website_Giay.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\EntityFramework.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\WebGrease.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\EntityFramework.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csproj.CopyComplete
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+C:\Users\HP\Downloads\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\WebGrease.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+C:\Users\ASUS\Downloads\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\WebGrease.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_BN\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\WebGrease.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Website_Giay_Final\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\WebGrease.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+C:\Users\DELL\OneDrive\Máy tính\Nhom02\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll.config
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Website_Giay.pdb
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Antlr3.Runtime.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Infrastructure.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Optimization.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Providers.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\WebGrease.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\EntityFramework.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\Newtonsoft.Json.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Net.Http.Formatting.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Http.WebHost.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Mvc.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.Razor.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Deployment.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\bin\System.Web.WebPages.Razor.xml
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.csprojResolveAssemblyReference.cache
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.dll
+D:\2. NĂM 2 ĐH\HK2 (2024-2025)\LẬP TRÌNH WEB\Nhom02_WebsiteGiay\Website_Giay\Website_Giay\Website_Giay\obj\Debug\Website_Giay.pdb

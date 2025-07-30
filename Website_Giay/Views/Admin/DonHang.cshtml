@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "DonHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model List<Website_Giay.Models.DonHang>
+
+<h2>📦 Danh sách đơn hàng</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã ĐH</th>
+            <th>Người đặt</th>
+            <th>Ngày đặt</th>
+            <th>Tổng tiền</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dh in Model)
+        {
+            <tr>
+                <td>@dh.IdDonHang</td>
+                <td>@dh.KhachHang.Username</td>
+                <td>@(dh.NgayDatHang.HasValue ? dh.NgayDatHang.Value.ToShortDateString() : "")</td>
+                <td>@dh.TongTien.ToString("N0") đ</td>
+                <td>@dh.TrangThai</td>
+                <td>
+                    <a href="@Url.Action("ChiTietDonHang", new { id = dh.IdDonHang })" class="btn btn-info btn-sm">Chi tiết</a>
+                    |
+                    <a href="@Url.Action("CapNhatTrangThai", new { id = dh.IdDonHang, trangThai = "Đã duyệt" })">Duyệt</a> |
+                    <a href="@Url.Action("CapNhatTrangThai", new { id = dh.IdDonHang, trangThai = "Đang giao" })">Giao</a> |
+                    <a href="@Url.Action("CapNhatTrangThai", new { id = dh.IdDonHang, trangThai = "Đã giao" })">Hoàn tất</a> |
+                    <a href="@Url.Action("CapNhatTrangThai", new { id = dh.IdDonHang, trangThai = "Đã hủy" })" style="color:red">Huỷ</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

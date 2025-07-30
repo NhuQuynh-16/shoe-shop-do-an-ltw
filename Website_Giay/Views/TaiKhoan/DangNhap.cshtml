@@ -1,0 +1,51 @@
+﻿@model Website_Giay.Models.KhachHang
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout_TrangChinh.cshtml";
+}
+
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Đăng nhập</h4>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.ThongBao != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.ThongBao</div>
+                    }
+                    @if (TempData["ThongBao"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["ThongBao"]</div>
+                    }
+
+                    @using (Html.BeginForm("DangNhap", "TaiKhoan", FormMethod.Post, new { @class = "form" }))
+                    {
+                        if (Request.QueryString["returnUrl"] != null)
+                        {
+                            TempData["ReturnUrl"] = Request.QueryString["returnUrl"];
+                        }
+                        <div class="form-group mb-3">
+                            <label for="tenDangNhap">Tên đăng nhập</label>
+                            <input type="text" class="form-control" id="tenDangNhap" name="tenDangNhap" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="matKhau">Mật khẩu</label>
+                            <input type="password" class="form-control" id="matKhau" name="matKhau" required>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success">Đăng nhập</button>
+                        </div>
+                    }
+                </div>
+                <div class="card-footer text-center">
+                    <p class="mb-0">Chưa có tài khoản? @Html.ActionLink("Đăng ký ngay", "DangKy", "TaiKhoan")</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

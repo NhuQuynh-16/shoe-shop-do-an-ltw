@@ -1,0 +1,59 @@
+﻿@model List<Website_Giay.Models.DanhMucGiay>
+
+@{
+    ViewBag.Title = "Quản lý danh mục";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách danh mục</h3>
+        <div class="card-tools">
+            <a href="@Url.Action("ThemDanhMuc")" class="btn btn-primary">
+                <i class="bi bi-plus"></i> Thêm danh mục
+            </a>
+        </div>
+    </div>
+    <div class="card-body">
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["Error"]
+            </div>
+        }
+        @if (TempData["ThongBao"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["ThongBao"]
+            </div>
+        }
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên danh mục</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdDanhMuc</td>
+                        <td>@item.TenDanhMuc</td>
+                        <td>
+                            <a href="@Url.Action("SuaDanhMuc", new { id = item.IdDanhMuc })" class="btn btn-warning btn-sm">
+                                <i class="bi bi-pencil"></i> Sửa
+                            </a>
+                            <a href="@Url.Action("XoaDanhMuc", new { id = item.IdDanhMuc })" class="btn btn-danger btn-sm"
+                               onclick="return confirm('Bạn có chắc muốn xóa danh mục này?');">
+                                <i class="bi bi-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "ChiTietDonHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    var don = ViewBag.DonHang as Website_Giay.Models.DonHang;
+}
+@model List<Website_Giay.Models.ChiTietDonHang>
+
+<h2>🧾 Chi tiết đơn hàng @don.IdDonHang</h2>
+<p><strong>Người đặt:</strong> @don.KhachHang.Username</p>
+<p><strong>Ngày đặt:</strong> @(don.NgayDatHang.HasValue ? don.NgayDatHang.Value.ToShortDateString() : "")</p>
+<p><strong>Địa chỉ:</strong> @don.DiaChiGiaoHang</p>
+<p><strong>Trạng thái:</strong> @don.TrangThai</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>SL</th>
+            <th>Đơn giá</th>
+            <th>Thành tiền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SanPham.TenSanPham</td>
+                <td>@item.SoLuong</td>
+                <td>@item.DonGia.ToString("N0") đ</td>
+                <td>@((item.SoLuong * item.DonGia).ToString("N0")) đ</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

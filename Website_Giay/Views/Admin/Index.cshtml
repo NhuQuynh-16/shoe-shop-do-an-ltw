@@ -1,0 +1,249 @@
+﻿@{
+    ViewBag.Title = "Trang quản trị";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="container-fluid p-0">
+    <h2 class="mb-4">Tổng quan hệ thống</h2>
+
+    <!-- Thống kê tổng quan -->
+    <div class="row g-4 mb-4">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title mb-0">Tổng sản phẩm</h6>
+                            <h2 class="mt-2 mb-0">@ViewBag.TotalProducts</h2>
+                        </div>
+                        <i class="bi bi-box-seam fs-1"></i>
+                    </div>
+                </div>
+                <div class="card-footer bg-primary-dark border-0">
+                    <a href="@Url.Action("SanPham")" class="text-white text-decoration-none">
+                        <small>Xem chi tiết <i class="bi bi-arrow-right"></i></small>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card bg-success text-white h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title mb-0">Tổng đơn hàng</h6>
+                            <h2 class="mt-2 mb-0">@ViewBag.TotalOrders</h2>
+                        </div>
+                        <i class="bi bi-cart-check fs-1"></i>
+                    </div>
+                </div>
+                <div class="card-footer bg-success-dark border-0">
+                    <a href="@Url.Action("DonHang")" class="text-white text-decoration-none">
+                        <small>Xem chi tiết <i class="bi bi-arrow-right"></i></small>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card bg-info text-white h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title mb-0">Tổng người dùng</h6>
+                            <h2 class="mt-2 mb-0">@ViewBag.TotalUsers</h2>
+                        </div>
+                        <i class="bi bi-people fs-1"></i>
+                    </div>
+                </div>
+                <div class="card-footer bg-info-dark border-0">
+                    <a href="@Url.Action("KhachHang")" class="text-white text-decoration-none">
+                        <small>Xem chi tiết <i class="bi bi-arrow-right"></i></small>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card bg-warning text-white h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title mb-0">Tổng danh mục</h6>
+                            <h2 class="mt-2 mb-0">@ViewBag.TotalCategories</h2>
+                        </div>
+                        <i class="bi bi-folder fs-1"></i>
+                    </div>
+                </div>
+                <div class="card-footer bg-warning-dark border-0">
+                    <a href="@Url.Action("DanhMuc")" class="text-white text-decoration-none">
+                        <small>Xem chi tiết <i class="bi bi-arrow-right"></i></small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thống kê đơn hàng -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Thống kê đơn hàng</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-warning">@ViewBag.PendingOrders</h3>
+                                <p class="mb-0">Chờ xử lý</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-primary">@ViewBag.ProcessingOrders</h3>
+                                <p class="mb-0">Đang xử lý</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-info">@ViewBag.ShippingOrders</h3>
+                                <p class="mb-0">Đang giao</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-success">@ViewBag.CompletedOrders</h3>
+                                <p class="mb-0">Đã giao</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-danger">@ViewBag.CancelledOrders</h3>
+                                <p class="mb-0">Đã hủy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hoạt động gần đây -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Đơn hàng mới nhất</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn</th>
+                                    <th>Ngày đặt</th>
+                                    <th>Trạng thái</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in ViewBag.RecentOrders)
+                                {
+                                    <tr>
+                                        <td>@order.IdDonHang</td>
+                                        <td>@order.NgayDatHang.ToString("dd/MM/yyyy")</td>
+                                        <td>
+                                            @{
+                                                var trangThai = order.TrangThai;
+                                                if (trangThai == "Chờ xử lý")
+                                                {
+                                                    <span class="badge bg-warning">@trangThai</span>
+                                                }
+                                                else if (trangThai == "Đã duyệt")
+                                                {
+                                                    <span class="badge bg-primary">@trangThai</span>
+                                                }
+                                                else if (trangThai == "Đang giao")
+                                                {
+                                                    <span class="badge bg-info">@trangThai</span>
+                                                }
+                                                else if (trangThai == "Đã giao")
+                                                {
+                                                    <span class="badge bg-success">@trangThai</span>
+                                                }
+                                                else if (trangThai == "Đã hủy")
+                                                {
+                                                    <span class="badge bg-danger">@trangThai</span>
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            <a href="@Url.Action("ChiTietDonHang", new { id = order.IdDonHang })" class="btn btn-sm btn-outline-primary">
+                                                Chi tiết
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Sản phẩm mới nhất</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Giá</th>
+                                    <th>Danh mục</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in ViewBag.RecentProducts)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="~/Content/Images/@product.HinhAnh" alt="@product.TenSanPham" 
+                                                     style="width: 40px; height: 40px; object-fit: cover;" class="me-2" />
+                                                @product.TenSanPham
+                                            </div>
+                                        </td>
+                                        <td>@string.Format("{0:N0}đ", product.Gia)</td>
+                                        <td>@product.DanhMucGiay.TenDanhMuc</td>
+                                        <td>
+                                            <a href="@Url.Action("SuaSanPham", new { id = product.IdProduct })" class="btn btn-sm btn-outline-primary">
+                                                Chi tiết
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bg-primary-dark { background-color: rgba(0,0,0,0.1); }
+    .bg-success-dark { background-color: rgba(0,0,0,0.1); }
+    .bg-info-dark { background-color: rgba(0,0,0,0.1); }
+    .bg-warning-dark { background-color: rgba(0,0,0,0.1); }
+    .card-footer { padding: 0.5rem 1rem; }
+    .card-footer a:hover { opacity: 0.8; }
+</style>

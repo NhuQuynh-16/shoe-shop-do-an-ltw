@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Sản phẩm";
+    Layout = "~/Views/Shared/_Layout_TrangChinh.cshtml";
+}
+@model IEnumerable<Website_Giay.Models.SanPham>
+
+<div class="container-fluid">
+    @if (ViewBag.SelectedCategory != null)
+    {
+        foreach (var dm in ViewBag.DanhMucs)
+        {
+            if (dm.IdDanhMuc == ViewBag.SelectedCategory)
+            {
+                <h4 class="mb-4">@dm.TenDanhMuc</h4>
+                break;
+            }
+        }
+    }
+    else if (!string.IsNullOrEmpty(Request.QueryString["search"]))
+    {
+        <h4 class="mb-4">Kết quả tìm kiếm cho: "@Request.QueryString["search"]"</h4>
+    }
+
+    @if (Model.Count() == 0)
+    {
+        <div class="alert alert-info">
+            Không tìm thấy sản phẩm nào phù hợp.
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <a href="@Url.Action("ChiTiet", "SanPham", new { id = item.IdProduct })">
+                            <img src="@Url.Content("~/Content/images/" + item.HinhAnh)" class="card-img-top" alt="@item.TenSanPham" style="height:200px; object-fit:cover;" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="@Url.Action("ChiTiet", "SanPham", new { id = item.IdProduct })" class="text-decoration-none">
+                                    @item.TenSanPham
+                                </a>
+                            </h5>
+                            <p class="card-text text-danger fw-bold">@item.Gia.ToString("N0") VNĐ</p>
+                            <p class="card-text"><small class="text-muted">@item.MoTa</small></p>
+                            @if (Session["UserRole"] != null && (int)Session["UserRole"] == 0)
+                            {
+                                <a href="@Url.Action("ThemVaoGio", "GioHang", new { maSP = item.IdProduct, returnUrl = Request.RawUrl })"
+                                   class="btn btn-sm btn-success mt-2">
+                                    <i class="bi bi-cart-plus"></i> Thêm vào giỏ
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,80 @@
+﻿@model Website_Giay.Models.KhachHang
+@{
+    ViewBag.Title = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_Layout_TrangChinh.cshtml";
+}
+
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title mb-0">Đăng ký tài khoản</h3>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.ThongBao != null)
+                    {
+                        <div class="alert alert-danger">
+                            @ViewBag.ThongBao
+                        </div>
+                    }
+
+                    @using (Html.BeginForm("DangKy", "TaiKhoan", FormMethod.Post))
+                    {
+                        <div class="mb-3">
+                            <label class="form-label">Tên đăng nhập <span class="text-danger">*</span></label>
+                            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mật khẩu <span class="text-danger">*</span></label>
+                            @Html.PasswordFor(m => m.UserPassword, new { @class = "form-control", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Họ tên <span class="text-danger">*</span></label>
+                            @Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Giới tính <span class="text-danger">*</span></label>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(m => m.GioiTinh, "Nam", new { @class = "form-check-input", id = "genderMale", required = "required" })
+                                    <label class="form-check-label" for="genderMale">Nam</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(m => m.GioiTinh, "Nữ", new { @class = "form-check-input", id = "genderFemale" })
+                                    <label class="form-check-label" for="genderFemale">Nữ</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email <span class="text-danger">*</span></label>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Số điện thoại <span class="text-danger">*</span></label>
+                            @Html.TextBoxFor(m => m.DienThoai, new { @class = "form-control", type = "tel", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Địa chỉ <span class="text-danger">*</span></label>
+                            @Html.TextAreaFor(m => m.DiaChi, new { @class = "form-control", rows = "3", required = "required" })
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Đăng ký</button>
+                            <a href="@Url.Action("DangNhap", "TaiKhoan")" class="btn btn-outline-secondary">
+                                Đã có tài khoản? Đăng nhập
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
